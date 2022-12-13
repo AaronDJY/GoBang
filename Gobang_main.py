@@ -554,7 +554,7 @@ class Color:
         self.RED = (255, 0, 0)
         self.GREEN = (0, 255, 0)
         self.BLUE = (0, 0, 255)
-        self.GREEN = (142, 218, 0)
+        self.DarkGREEN = (142, 218, 0)
 
 class Background:
     def __init__(self) -> None:
