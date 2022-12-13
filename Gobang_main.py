@@ -530,6 +530,12 @@ class Button:
         self.button =button_name
         self.pos_x = x
         self.pos_y = y
+    
+    def get_x(self):
+        return  self.pos_x
+
+    def get_y(self):
+        return self.pos_y
 
 class Errorcode:
     def __init__(self) -> None:
